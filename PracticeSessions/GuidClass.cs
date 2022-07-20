@@ -13,10 +13,13 @@ namespace PracticeSessions
         public void GuidMethods() 
         {
             Guid obj = Guid.NewGuid();
-            Console.WriteLine("New Guid is " + obj.ToString());
+            Console.WriteLine("New Guid is: " + obj.ToString());
+            //Try this, need more clarification
+            Console.WriteLine("New Guid is: (need more clarification without ToString()) " + obj);
+
             //Avoid this, since it will always be 16 byte with all 0.
             Guid guid = new Guid();
-            Console.WriteLine("New Guid is " + guid.ToString());
+            Console.WriteLine("New Guid is: " + guid.ToString());
 
             Console.WriteLine("Emply String: " + Guid.Empty);
             Console.WriteLine();
@@ -48,9 +51,22 @@ namespace PracticeSessions
             Console.WriteLine("Can use a byte array as an input to the constructor, and have it converted to Guid. Of course, the array must be of 16 bytes.");
             var bytes = new byte[16];
             var guid4 = new Guid(bytes);
-            Console.WriteLine("GUid4: " + guid4);
+            Console.WriteLine("Guid4: " + guid4);
 
             Console.WriteLine();
+            Console.WriteLine("----------A Guid has multiple formats-----------");
+            var tmpGuid = Guid.NewGuid();
+            Console.WriteLine("D: 32 digits, but with the hyphens. This is the default");
+            Console.WriteLine("D \t" + tmpGuid.ToString("D"));
+            Console.WriteLine("N: 32 digits, without any other symbols");
+            Console.WriteLine("N \t" + tmpGuid.ToString("N"));
+            Console.WriteLine("B: here we have the hyphens, and the string is enclosed in braces");
+            Console.WriteLine("B \t" + tmpGuid.ToString("B"));
+            Console.WriteLine("P: similar to B, but with parentheses instead of braces");
+            Console.WriteLine("P \t" + tmpGuid.ToString("P"));
+            Console.WriteLine("X: here we have the hexadecimal representation of the guid");
+            Console.WriteLine("X \t" + tmpGuid.ToString("X"));
+
 
         }
 
