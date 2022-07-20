@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace PracticeSessions
 {
+
+    /* Reference: https://www.code4it.dev/blog/5-things-about-guid-in-csharp
+     * https://www.c-sharpcorner.com/article/what-is-guid-in-c-sharp/
+     */
     public class GuidClass
     {
         
