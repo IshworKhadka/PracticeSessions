@@ -10,12 +10,8 @@ namespace PracticeSessions
     {
         static void Main(string[] args)
         {
-            //GuidClass guidClass = new GuidClass();
-            //guidClass.GuidMethods();
-
-            TimerClass timerClass = new TimerClass();
-            timerClass.TimerMethods();
-
+            GuidClass guidClass = new GuidClass();
+            guidClass.GuidMethods();
         }
 
        
