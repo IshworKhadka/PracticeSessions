@@ -44,9 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GuidClass.cs" />
+    <Compile Include="IPracticeClass.cs" />
+    <Compile Include="LenaSorting.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TimerClass.cs" />
+    <Compile Include="TrimClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
