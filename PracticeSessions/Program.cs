@@ -11,8 +11,8 @@ namespace PracticeSessions
         static void Main(string[] args)
         {
 
-            //TimerClass timerClass = new TimerClass();
-            //timerClass.TimerMethods();
+            TimerClass timerClass = new TimerClass();
+            timerClass.TimerMethods();
 
         }
 

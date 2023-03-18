@@ -3,13 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IshworKhadka.PracticeSessions", "PracticeSessions\IshworKhadka.PracticeSessions.csproj", "{D82AAB32-FD1F-450A-B679-A0EA8D8C387C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IshworKhadka.RedisProject", "IshworKhadka.RedisProject\IshworKhadka.RedisProject.csproj", "{60E2FA6B-2EDE-4BED-A548-A765F4270E51}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infrastructure", "3.Infrastructure", "{2EDFA809-EAF4-4445-990A-DC1C15538106}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IshworKhadka.Common", "IshworKhadka.Common\IshworKhadka.Common.csproj", "{C0E28AB5-E8BF-408D-AFFB-8633B5EABE1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeSessions", "PracticeSessions\PracticeSessions.csproj", "{D82AAB32-FD1F-450A-B679-A0EA8D8C387C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,20 +15,9 @@ Global
 		{D82AAB32-FD1F-450A-B679-A0EA8D8C387C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D82AAB32-FD1F-450A-B679-A0EA8D8C387C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D82AAB32-FD1F-450A-B679-A0EA8D8C387C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{60E2FA6B-2EDE-4BED-A548-A765F4270E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60E2FA6B-2EDE-4BED-A548-A765F4270E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60E2FA6B-2EDE-4BED-A548-A765F4270E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60E2FA6B-2EDE-4BED-A548-A765F4270E51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0E28AB5-E8BF-408D-AFFB-8633B5EABE1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0E28AB5-E8BF-408D-AFFB-8633B5EABE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0E28AB5-E8BF-408D-AFFB-8633B5EABE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0E28AB5-E8BF-408D-AFFB-8633B5EABE1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{C0E28AB5-E8BF-408D-AFFB-8633B5EABE1E} = {2EDFA809-EAF4-4445-990A-DC1C15538106}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B36FD0D7-711D-4209-9BC2-B4FBED0783CD}
